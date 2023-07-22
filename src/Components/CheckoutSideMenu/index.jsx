@@ -24,6 +24,7 @@ function CheckoutSideMenu() {
         context.setOrder([...context.order, orderToAdd])
         context.setCart([])
         context.setCount(0)
+        context.closeCheckoutSideMenu()
         context.setSearchByTitle(null)
     }
 
