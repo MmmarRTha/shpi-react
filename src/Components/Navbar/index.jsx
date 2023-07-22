@@ -11,14 +11,14 @@ const Navbar = () => {
         <nav className='fixed top-0 z-10 flex items-center justify-between w-full px-8 text-xl font-medium py-7 text-blue-950 side-bar'>
             <ul className='flex items-center gap-4'>
                 <li className='text-2xl font-semibold'>
-                    <NavLink to='/'
+                    <NavLink to='/shpi-react'
                     className='cursor-default text-fuchsia-500'>
                         eStore
                     </NavLink>
                 </li>
                 <li>
                     <NavLink 
-                        to='/'
+                        to='/shpi-react'
                         onClick={() => context.setSearchByCategory('')}
                         className={({ isActive}) =>
                             isActive ? activeStyle : undefined                            
